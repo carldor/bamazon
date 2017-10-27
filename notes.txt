@@ -1,0 +1,11 @@
+CREATE DATABASE bamazon;
+
+CREATE TABLE products (
+item_id INT,
+product_name VARCHAR(50),
+department_name VARCHAR(50),
+price NUMERIC(10,2),
+stock_quantity INT,
+PRIMARY KEY (item_id)
+)
+
